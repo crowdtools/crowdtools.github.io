@@ -7,7 +7,7 @@ title: Block Requesters
 published: true
 ---
 
-Lorem ipsum dolor sit amet, vivamus quis, urna ligula, aliquet wisi fermentum pellentesque. Vestibulum euismod erat urna vestibulum, per cras tempus bibendum vestibulum, cras a, mus et. Ultrices adipiscing dolor, pellentesque neque nunc eros, sit etiam quam a.
+This script lets you block/ignore requesters from your search results. It will place a little 'x' beside each requester's name. To block, just click the 'x'. This helps clean up your search results, and saves you time when you block scammers/requesters with poor ratings.  Props to  xxdohxx  for reviving this script and fixing it so it works in Chrome!
 
 <!--more-->
 
