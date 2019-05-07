@@ -1,9 +1,9 @@
 ---
 layout: post
-tags: machine-learning python numpy scikit-learn
-date: 2014-12-30 13:06
-thumbnail: http://placehold.it/100x100
-title: A Demo blog
+tags: AMT productivity
+date: 2019-05-05 12:00
+thumbnail: images/tool.png
+title: Block Requesters
 published: true
 ---
 
