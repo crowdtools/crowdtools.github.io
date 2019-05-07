@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: AMT productivity
+tags: AMT earnings
 date: 2019-05-05 12:00
 thumbnail: images/tool.png
 title: Today's Projected Earnings
