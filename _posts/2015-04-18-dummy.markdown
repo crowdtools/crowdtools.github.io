@@ -1,16 +1,13 @@
 ---
 layout: post
-title:  "Dummy Post"
+title:  "Block Requesters"
 date:   2015-04-18 08:43:59
 author: Ben Centra
-categories: Dummy
+categories: AMT Productivity
 ---
 
-This is just a dummy post. Lorem ipsum and all the rest.
+This script lets you block/ignore requesters from your search results. It will place a little 'x' beside each requester's name. To block, just click the 'x'. This helps clean up your search results, and saves you time when you block scammers/requesters with poor ratings.  Props to  xxdohxx  for reviving this script and fixing it so it works in Chrome!
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<!--more-->
+
+Lorem ipsum
