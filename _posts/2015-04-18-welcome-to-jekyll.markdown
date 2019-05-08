@@ -3,8 +3,8 @@ layout: post
 title:  "MTurk HIT DataBase"
 date:   2015-04-18 08:43:59
 author: Ben Centra
-categories: Jekyll
-tags:	AMT Productivity
+categories: AMT Productivity
+tags:	jekyll welcome
 cover:  "/assets/instacode.png"
 ---
 
