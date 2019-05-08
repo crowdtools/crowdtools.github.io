@@ -11,16 +11,16 @@ exclude:
 # Site settings
 title: Crowd Tools
 subtitle: "Index of crowd work tools"
-email: blcentra@gmail.com
-name: Ben Centra
+email: crowdtoolspage@gmail.com
+name: Crowd Team
 description: >
-  A simple yet classy theme for your Jekyll website or blog.
+  A public repository for crowd tools
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
 baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "http://crowdtools.github.io" # the base hostname & protocol for your site
-cover: "/assets/header_image.jpg"
+cover: "/assets/back.png"
 logo: "/assets/logo.png"
 
 # Build settings
