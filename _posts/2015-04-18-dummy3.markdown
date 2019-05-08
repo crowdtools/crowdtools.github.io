@@ -3,11 +3,9 @@ layout: post
 title:  "Pending Earnings
 date:   2015-04-18 08:43:59
 author: Ben Centra
-categories: AMT Earnings
+categories: Dummy
 ---
 
 Adds up your pending earnings and displays them on your dashboard below your total earnings.
-
-<!--more-->
 
 Tortor a velit elementum
