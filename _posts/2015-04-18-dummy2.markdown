@@ -3,7 +3,7 @@ layout: post
 title:  "Todays Projected Earnings"
 date:   2015-04-18 08:43:59
 author: Ben Centra
-categories: AMT
+categories: AMT Earnings
 ---
 
 Similar to Pending Earnings tool except it totals your projected earnings for the day. It doesn't take bonuses into account though.

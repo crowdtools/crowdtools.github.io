@@ -3,7 +3,7 @@ layout: post
 title:  "Block Requesters"
 date:   2015-04-18 08:43:59
 author: Ben Centra
-categories: AMT
+categories: AMT Productivity
 ---
 
 This script lets you block/ignore requesters from your search results. It will place a little 'x' beside each requester's name. To block, just click the 'x'. This helps clean up your search results, and saves you time when you block scammers/requesters with poor ratings.  Props to  xxdohxx  for reviving this script and fixing it so it works in Chrome!
