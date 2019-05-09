@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Crowd Tools</title>
+    <description>A public repository for crowd tools
+</description>
+    <link>http://crowdtools.github.io//</link>
+    <atom:link href="http://crowdtools.github.io//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 09 May 2019 15:18:53 -0400</pubDate>
+    <lastBuildDate>Thu, 09 May 2019 15:18:53 -0400</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>MTurk HIT DataBase</title>
+        <description>&lt;p&gt;Extended ability to search HITs you have worked on and other useful tools&lt;/p&gt;
+
+&lt;h2 id=&quot;adding-new-posts&quot;&gt;Adding New Posts&lt;/h2&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;h3 id=&quot;tags-and-categories&quot;&gt;Tags and Categories&lt;/h3&gt;
+
+&lt;p&gt;If you list one or more categories or tags in the front matter of your post, they will be included with the post on the page as links. Clicking the link will bring you to an auto-generated archive page for the category or tag, created using the &lt;a href=&quot;https://github.com/jekyll/jekyll-archives&quot;&gt;jekyll-archive&lt;/a&gt; gem.&lt;/p&gt;
+
+&lt;h3 id=&quot;cover-images&quot;&gt;Cover Images&lt;/h3&gt;
+
+&lt;p&gt;To add a cover image to your post, set the “cover” property in the front matter with the relative URL of the image (i.e. &lt;code&gt;cover: &quot;/assets/cover_image.jpg&quot;&lt;/code&gt;).&lt;/p&gt;
+
+&lt;h3 id=&quot;code-snippets&quot;&gt;Code Snippets&lt;/h3&gt;
+
+&lt;p&gt;You can use &lt;a href=&quot;https://highlightjs.org/&quot;&gt;highlight.js&lt;/a&gt; to add syntax highlight code snippets:&lt;/p&gt;
+
+&lt;p&gt;Use the &lt;a href=&quot;https://github.com/Shopify/liquid/wiki/Liquid-for-Designers&quot;&gt;Liquid&lt;/a&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;{% highlight &amp;lt;language&amp;gt; %}&lt;/code&gt; tag to add syntax highlighting to code snippets.&lt;/p&gt;
+
+&lt;p&gt;For instance, this template…&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;{% highlight javascript %}    
+function demo(string, times) {    
+  for (var i = 0; i &lt;span class=&quot;nt&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;times&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;++)&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;{&lt;/span&gt;    
+    &lt;span class=&quot;na&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;);&lt;/span&gt;    
+  &lt;span class=&quot;err&quot;&gt;}&lt;/span&gt;    
+&lt;span class=&quot;err&quot;&gt;}&lt;/span&gt;    
+&lt;span class=&quot;na&quot;&gt;demo&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;(&quot;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;hello&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;world&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;!&quot;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;{%&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;endhighlight&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;%}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;…will come out looking like this:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;demo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;times&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;times&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;demo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;hello, world!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Syntax highlighting is done using &lt;a href=&quot;https://highlightjs.org/&quot;&gt;highlight.js&lt;/a&gt;. You can change the active theme in &lt;a href=&quot;https://github.com/bencentra/centrarium/blob/2dcd73d09e104c3798202b0e14c1db9fa6e77bc7/_includes/head.html#L15&quot;&gt;head.html&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;images&quot;&gt;Images&lt;/h3&gt;
+
+&lt;p&gt;Lightbox has been enabled for images. To create the link that’ll launch the lightbox, add &lt;code&gt;data-lightbox&lt;/code&gt; and &lt;code&gt;data-title&lt;/code&gt; attributes to an &lt;code&gt;&amp;lt;a&amp;gt;&lt;/code&gt; tag around your &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt; tag. The result is:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;//bencentra.com/assets/images/falcon9_large.jpg&quot; data-lightbox=&quot;falcon9-large&quot; data-title=&quot;Check out the Falcon 9 from SpaceX&quot;&gt;
+  &lt;img src=&quot;//bencentra.com/assets/images/falcon9_small.jpg&quot; title=&quot;Check out the Falcon 9 from SpaceX&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For more information, check out the &lt;a href=&quot;http://lokeshdhakar.com/projects/lightbox2/&quot;&gt;Lightbox&lt;/a&gt; website.&lt;/p&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 18 Apr 2015 04:43:59 -0400</pubDate>
+        <link>http://crowdtools.github.io//amt/productivity/2015/04/18/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://crowdtools.github.io//amt/productivity/2015/04/18/welcome-to-jekyll.html</guid>
+        
+        <category>jekyll</category>
+        
+        <category>welcome</category>
+        
+        
+        <category>AMT</category>
+        
+        <category>Productivity</category>
+        
+      </item>
+    
+      <item>
+        <title>Amazon Payments mTurk Details</title>
+        <description>&lt;p&gt;Adds details for mTurk transactions to your Account Activity page.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum&lt;/p&gt;
+</description>
+        <pubDate>Sat, 18 Apr 2015 04:43:59 -0400</pubDate>
+        <link>http://crowdtools.github.io//amt/earnings/2015/04/18/dummy6.html</link>
+        <guid isPermaLink="true">http://crowdtools.github.io//amt/earnings/2015/04/18/dummy6.html</guid>
+        
+        <category>lorem</category>
+        
+        <category>ipsum</category>
+        
+        
+        <category>AMT</category>
+        
+        <category>Earnings</category>
+        
+      </item>
+    
+      <item>
+        <title>Requester ID &amp; Auto Approval Time</title>
+        <description>&lt;p&gt;Displays the Requester ID in case they change their name and the HIT’s auto approval time&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum&lt;/p&gt;
+</description>
+        <pubDate>Sat, 18 Apr 2015 04:43:59 -0400</pubDate>
+        <link>http://crowdtools.github.io//amt/productivity/2015/04/18/dummy5.html</link>
+        <guid isPermaLink="true">http://crowdtools.github.io//amt/productivity/2015/04/18/dummy5.html</guid>
+        
+        <category>lorem</category>
+        
+        
+        <category>AMT</category>
+        
+        <category>Productivity</category>
+        
+      </item>
+    
+      <item>
+        <title>Expanded Header Info</title>
+        <description>&lt;p&gt;Displays your account balance and worker ID in the header. Just put your mouse cursor over your WorkerID to select it and CTRL+C to copy.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum&lt;/p&gt;
+</description>
+        <pubDate>Sat, 18 Apr 2015 04:43:59 -0400</pubDate>
+        <link>http://crowdtools.github.io//amt/productivity/2015/04/18/dummy4.html</link>
+        <guid isPermaLink="true">http://crowdtools.github.io//amt/productivity/2015/04/18/dummy4.html</guid>
+        
+        <category>ipsum</category>
+        
+        
+        <category>AMT</category>
+        
+        <category>Productivity</category>
+        
+      </item>
+    
+      <item>
+        <title>Pending Earnings</title>
+        <description>&lt;p&gt;Adds up your pending earnings and displays them on your dashboard below your total earnings.&lt;/p&gt;
+
+&lt;p&gt;Tortor a velit elementum&lt;/p&gt;
+</description>
+        <pubDate>Sat, 18 Apr 2015 04:43:59 -0400</pubDate>
+        <link>http://crowdtools.github.io//amt/earnings/2015/04/18/dummy3.html</link>
+        <guid isPermaLink="true">http://crowdtools.github.io//amt/earnings/2015/04/18/dummy3.html</guid>
+        
+        
+        <category>AMT</category>
+        
+        <category>Earnings</category>
+        
+      </item>
+    
+      <item>
+        <title>Todays Projected Earnings</title>
+        <description>&lt;p&gt;Similar to Pending Earnings tool except it totals your projected earnings for the day. It doesn’t take bonuses into account though.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet&lt;/p&gt;
+</description>
+        <pubDate>Sat, 18 Apr 2015 04:43:59 -0400</pubDate>
+        <link>http://crowdtools.github.io//amt/earnings/2015/04/18/dummy2.html</link>
+        <guid isPermaLink="true">http://crowdtools.github.io//amt/earnings/2015/04/18/dummy2.html</guid>
+        
+        
+        <category>AMT</category>
+        
+        <category>Earnings</category>
+        
+      </item>
+    
+      <item>
+        <title>Block Requesters</title>
+        <description>&lt;p&gt;This script lets you block/ignore requesters from your search results. It will place a little ‘x’ beside each requester’s name. To block, just click the ‘x’. This helps clean up your search results, and saves you time when you block scammers/requesters with poor ratings.  Props to  xxdohxx  for reviving this script and fixing it so it works in Chrome!&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum&lt;/p&gt;
+</description>
+        <pubDate>Sat, 18 Apr 2015 04:43:59 -0400</pubDate>
+        <link>http://crowdtools.github.io//amt/productivity/2015/04/18/dummy.html</link>
+        <guid isPermaLink="true">http://crowdtools.github.io//amt/productivity/2015/04/18/dummy.html</guid>
+        
+        
+        <category>AMT</category>
+        
+        <category>Productivity</category>
+        
+      </item>
+    
+  </channel>
+</rss>
